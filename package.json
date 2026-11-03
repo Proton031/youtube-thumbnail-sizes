@@ -5,12 +5,41 @@
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
-  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
-  "scripts": { "test": "node --test test/index.test.js" },
-  "engines": { "node": ">=18" },
-  "keywords": ["youtube", "thumbnail", "youtube-thumbnail", "maxresdefault", "video-id", "youtube-url-parser", "shorts"],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "youtube",
+    "thumbnail",
+    "youtube-thumbnail",
+    "maxresdefault",
+    "video-id",
+    "youtube-url-parser",
+    "shorts"
+  ],
   "homepage": "https://savemingo.com/youtube-thumbnail-downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proton031/youtube-thumbnail-sizes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Proton031/youtube-thumbnail-sizes/issues"
+  },
   "author": "SaveMingo (https://savemingo.com)",
   "license": "MIT"
 }
