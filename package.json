@@ -1,0 +1,16 @@
+{
+  "name": "youtube-thumbnail-sizes",
+  "version": "1.0.0",
+  "description": "Get YouTube thumbnail URLs from any video link and check which sizes really exist (no 120x90 placeholders). Zero dependencies.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/index.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["youtube", "thumbnail", "youtube-thumbnail", "maxresdefault", "video-id", "youtube-url-parser", "shorts"],
+  "homepage": "https://savemingo.com/youtube-thumbnail-downloader",
+  "author": "SaveMingo (https://savemingo.com)",
+  "license": "MIT"
+}
